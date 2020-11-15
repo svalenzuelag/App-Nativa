@@ -33,9 +33,7 @@ export default function App() {
       <Text style={{fontSize: 25 }}>Existencia: {item.existencia}{"\n"}</Text>
       <Text style={{fontSize: 25 }}>Fecha Ingreso: {item.fechA_INGRESO}{"\n"}</Text>
       <Text style={{fontSize: 25 }}>Vencimiento:  {item.fechA_VENCIMIENTO}{"\n"}</Text>
-      <View
-      
-      >
+      <View>
 
         <Image 
           style={{ width: 100, height: 100 }}
@@ -44,7 +42,7 @@ export default function App() {
       </View>
       </Text>
       }
-       
+      
     /> );
    } 
    const styles = StyleSheet.create({ container: {
